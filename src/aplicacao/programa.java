@@ -27,7 +27,11 @@ public class programa {
 		
 		// classe.valueOf(variavel) - 
 		// foi instanciado um objeto do tipo trabalho(classe trabalho), que tem como atributo(nome, nivel, baseSalario), sendo que nivel é um tipo enumerado 
-		// presente na classe trabalho importado da classe NivelTrabalho e 
+		// presente na classe trabalho importado da classe NivelTrabalho..
+		
+		// Ja o departamento é um outro objeto do tipo Departamento, é uma composicao de objetos 
+		
+		// NEW DEPARTAMENTO É UM OBJETO INSTANCIADO DENTRO DE OUTRO OBJETO;
 		
 		Trabalho trabalho = new Trabalho(nomeTrabalhador, NivelTrabalho.valueOf(nivelTrabalhador),baseSalario , new Departamento(departamentoNome)  );
 		
