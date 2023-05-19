@@ -39,6 +39,11 @@ public class HoraContrato {
 	public void setHora(Integer hora) {
 		this.hora = hora;
 	}
+
+	public double valorTotal() {
+		return valorHora * hora;
+	}
+
 	
 	
 	
