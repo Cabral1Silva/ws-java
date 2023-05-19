@@ -12,20 +12,14 @@ public class Trabalho {
 	private NivelTrabalho nivel;
 	private Double salarioBase;
 	
-	// --------  INICIO ASSOCIAÇÕES/COMPOSICAO DE OBJETOS ----------- 
+	// --------  INICIO /COMPOSICAO DE OBJETOS ----------- 
 	private Departamento departamento;
 	private List<HoraContrato> contratos  = new ArrayList<>(); // instanciado diretamente na classe - esta em uma lista pois a associações, a classe contrato tem varios contratos;
 	// quando tiver uma composição "tem muitos" , nao se deve incluir ao construtor e sim a uma lista e instanciar-la vazia!!!
-	//
-	//
-	//
-	
-	
-	
-	
+
 	
 	// NAO CRIAR METODOS GET E SET PARA LISTAS 
-	// --------  FIM ASSOCIAÇÕES ----------- 
+	// --------  FIM COMPOSICAO DE OBJETOS ----------- 
 	public Trabalho() {
 		
 	}
