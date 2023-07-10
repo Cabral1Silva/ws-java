@@ -64,7 +64,7 @@ public class Trabalho {
 	}
 	
 	
-	// dosi metodos responvel por fazer ou desfazer uma associação entre trabalhador e contrato.
+	// dois metodos responvel por fazer ou desfazer uma associação entre trabalhador e contrato.
 	
 	public void addContrato(HoraContrato contrato) {
 		

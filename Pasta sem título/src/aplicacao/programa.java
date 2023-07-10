@@ -31,9 +31,9 @@ public class programa {
 		
 		// Ja o departamento é um outro objeto do tipo Departamento, é uma composicao de objetos 
 		
-		// NEW DEPARTAMENTO É UM OBJETO INSTANCIADO DENTRO DE OUTRO OBJETO;
+		// NEW DEPARTAMENTO É UM OBJETO INSTANCIADO DENTRO DE OUTRO OBJETO, que no caso é uma composição feita na classe trabalho do tipo Departamento
 		
-		Trabalho trabalho = new Trabalho(nomeTrabalhador, NivelTrabalho.valueOf(nivelTrabalhador),baseSalario , new Departamento(departamentoNome)  );
+		Trabalho trabalho = new Trabalho(nomeTrabalhador, NivelTrabalho.valueOf(nivelTrabalhador),baseSalario , new Departamento(departamentoNome));
 		
 		
 		
