@@ -1,4 +1,7 @@
-## GERADOR DE PEDIDO PIZZARIA  :pizza: 
+ 
+
+## <p align="center"> GERADOR DE PEDIDO PIZZARIA  :pizza:</p>
+
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
@@ -21,14 +24,19 @@
    - [ ] Realizar pedido de cliente, de acordo com  o tipo de massa escolhida pelo cliente
 
    :small_orange_diamond: Massa tradicional(vegana/comum).
+   
    :small_orange_diamond: Massa especial.
 
  - [ ] Informar o valor do pedido de acordo com:
 
    :small_orange_diamond: Taxa de entrega, se existir.
+   
    :small_orange_diamond: Recheio Extra, se existir.
+   
    :small_orange_diamond: Tipo de massa.
+   
    :small_orange_diamond: Cupom promocional 
+   
    :small_orange_diamond: Se acompanhar refrigerante
 
 
