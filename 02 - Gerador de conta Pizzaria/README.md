@@ -18,7 +18,7 @@
 
     
 
-    #### :cyclone: Funcionalidades e Demonstração da Aplicação:
+#### :cyclone: Funcionalidades e Demonstração da Aplicação:
 
     
 
