@@ -20,15 +20,15 @@
 
 #### :cyclone: Funcionalidades e Demonstração da Aplicação:
 
-    
+​    
 
-    
+​    
 
-    
+​    
 
-    
+​    
 
-    
+​    
 
 
 
