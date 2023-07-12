@@ -19,7 +19,7 @@
 
 ​    
 
-#### :cyclone: Funcionalidades e Demonstração da Aplicação:    
+#### :cyclone: Funcionalidades:  
 
    - [ ] Realizar pedido de cliente, de acordo com  o tipo de massa escolhida pelo cliente
 
@@ -39,7 +39,8 @@
    
    :small_orange_diamond: Se acompanhar refrigerante
 
-
+e   
+#### :closed_lock_with_key: Demonstração da Aplicação::  
 
 
 
