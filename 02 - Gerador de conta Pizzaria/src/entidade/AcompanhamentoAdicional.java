@@ -9,11 +9,57 @@ public class AcompanhamentoAdicional  {
 	
 	
 	
+	 public AcompanhamentoAdicional(Double recheioExtra, Double refrigerante, Double precoAdicional,
+			Double taxaEntrega) {
+		super();
+		this.recheioExtra = recheioExtra;
+		this.refrigerante = refrigerante;
+		this.precoAdicional = precoAdicional;
+		this.taxaEntrega = taxaEntrega;
+		
+	}
+	 
+	 
+	 
+
+
+
+
+	public Double getRecheioExtra() {
+		return recheioExtra;
+	}
 	
-	// duvida: fico na duvida se preciso incluir o metodo get ja que 
-	
-	
-	 public void executarMetodos() {
+	public void setRecheioExtra(Double recheioExtra) {
+		this.recheioExtra = recheioExtra;
+	}
+
+	public Double getRefrigerante() {
+		return refrigerante;
+	}
+
+	public void setRefrigerante(Double refrigerante) {
+		this.refrigerante = refrigerante;
+	}
+
+	public Double getTaxaEntrega() {
+		return taxaEntrega;
+	}
+
+
+
+	public void setTaxaEntrega(Double taxaEntrega) {
+		this.taxaEntrega = taxaEntrega;
+	}
+
+
+
+	public Double getPrecoAdicional() {
+		return precoAdicional;
+	}
+
+
+
+	public void executarMetodos() {
 		 
 		 addRecheioExtra();
 		 addRefrigerante();
