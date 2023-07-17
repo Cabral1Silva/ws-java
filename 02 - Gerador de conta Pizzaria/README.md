@@ -24,7 +24,7 @@
    - [ ] Realizar pedido de cliente, de acordo com  o tipo de massa escolhida pelo cliente
 
    :small_orange_diamond: Massa tradicional(vegana/comum).
-   
+
    :small_orange_diamond: Massa especial.
 
  - [ ] Informar o valor do pedido de acordo com:
