@@ -1,4 +1,5 @@
 import entidade.Pizza;
+import entidade.AcompanhamentoAdicional;
 public class man {
 	
 
@@ -6,8 +7,12 @@ public class man {
 		// TODO Auto-generated method stub
 
 		
-		Pizza massa = new Pizza(false);
-		massa.exibirPreco();
+		Pizza massa = new Pizza(true);
+		massa.massaPizza();
+		
+		AcompanhamentoAdicional  adicional = new AcompanhamentoAdicional();
+		adicional.executarMetodos();
+		System.out.println(adicional.totalAdicional());
 	}
 
 }
