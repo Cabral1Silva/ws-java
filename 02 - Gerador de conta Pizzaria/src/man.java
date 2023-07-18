@@ -11,7 +11,7 @@ public class man {
 		massa.massaPizza();
 		
 		AcompanhamentoAdicional  adicional = new AcompanhamentoAdicional();
-		adicional.executarMetodos();
+		adicional.executarMetodos(true, true, true);
 		System.out.println(adicional.totalAdicional());
 	}
 

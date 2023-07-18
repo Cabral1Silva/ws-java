@@ -9,22 +9,17 @@ public class AcompanhamentoAdicional  {
 	
 	
 	
-	 public AcompanhamentoAdicional(Double recheioExtra, Double refrigerante, Double precoAdicional,
-			Double taxaEntrega) {
-		super();
-		this.recheioExtra = recheioExtra;
-		this.refrigerante = refrigerante;
-		this.precoAdicional = precoAdicional;
-		this.taxaEntrega = taxaEntrega;
+	 public AcompanhamentoAdicional() {
+			 
 		
+		 
+	
 	}
+
+
+
 	 
 	 
-	 
-
-
-
-
 	public Double getRecheioExtra() {
 		return recheioExtra;
 	}
@@ -59,16 +54,8 @@ public class AcompanhamentoAdicional  {
 
 
 
-	public void executarMetodos() {
-		 
-		 addRecheioExtra();
-		 addRefrigerante();
-		 AddTaxaEntrega();
-		 
-		 
-	    }
 	
-	
+		
 
 
 	public void addRecheioExtra() {
@@ -96,6 +83,26 @@ public class AcompanhamentoAdicional  {
 		return precoAdicional;
 	}
 	
+	
+	public void executarMetodos(Boolean addRecheioExtra , Boolean addRefrigerante, Boolean  AddTaxaEntrega ) {	
+		
+		
+		if(addRecheioExtra) {				
+			
+			addRecheioExtra();		
+			
+		}
+		if(addRefrigerante) {				
+			 			
+			 addRefrigerante();
+			
+		}
+		if(AddTaxaEntrega) {				
+			
+			AddTaxaEntrega();
+		}
+		
+}
 	
 	
 	
