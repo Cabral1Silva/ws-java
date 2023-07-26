@@ -27,7 +27,7 @@
 
    :small_orange_diamond: Massa especial.
 
- - [ ] Informar o valor do pedido de acordo com:
+ - [x] Informar o valor do pedido de acordo com:
 
    :small_orange_diamond: Taxa de entrega, se existir.
    

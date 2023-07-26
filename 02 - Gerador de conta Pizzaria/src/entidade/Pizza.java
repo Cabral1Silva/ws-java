@@ -2,7 +2,7 @@ package entidade;
 
 public class Pizza {
 	
-	private Integer  preco;
+	private Double  preco;
 	private Boolean vegano; // verificar se é vegano ou não
 	
 	
@@ -13,9 +13,9 @@ public class Pizza {
 		
 		this.vegano = vegano; 
 		if(this.vegano) {
-			this.preco = 100;
+			this.preco = 100.00;
 		}else {
-			this.preco = 50;
+			this.preco = 50.00;
 		}		
 	}
 	
