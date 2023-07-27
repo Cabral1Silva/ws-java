@@ -1,5 +1,9 @@
 package entidade;
 
+
+
+// falta incluir metodo toString
+
 public class AcompanhamentoAdicional  {
 
 	private Double recheioExtra = 5.0;
