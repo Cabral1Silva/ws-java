@@ -1,5 +1,6 @@
 import entidade.Pizza;
 
+
 import entidade.enums.SaboresComum;
 import entidade.enums.SaboresEspecial;
 import entidade.enums.SaboresVegano;
@@ -14,7 +15,7 @@ public class man {
 		// TODO Auto-generated method stub
 
 		
-		Pizza massa = new Pizza(true, SaboresComum.FRANGO_CATUPIRY);
+		Pizza massa = new Pizza(false, SaboresComum.PORTUGUESA);
 		
 	
 		

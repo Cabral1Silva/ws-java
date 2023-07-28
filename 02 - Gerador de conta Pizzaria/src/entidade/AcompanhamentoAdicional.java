@@ -105,6 +105,15 @@ public class AcompanhamentoAdicional  {
 		
 }
 	
+	public String toString() {
+		
+		return ""
+		
+		
+		
+		
+	}
+	
 	
 	
 	

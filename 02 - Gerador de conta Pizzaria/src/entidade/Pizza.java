@@ -78,7 +78,16 @@ public Pizza(Boolean vegano, SaboresVegano SaboresVegano ) {
 	public String toString() {
 		
 		String tipoMassa = vegano? "Massa Vegana" : "Massa Tradicional";
-		return "Pizza: " + tipoMassa + ", Sabor: " + sabores;
+		
+		if(vegano) {
+			
+			return "Pizza: " + tipoMassa + ", Sabor: " + SaboresVegano;
+		}else {
+			
+			return "Pizza: " + tipoMassa + ", Sabor: " + sabores;
+			
+		}
+		
 		
 	}
 
