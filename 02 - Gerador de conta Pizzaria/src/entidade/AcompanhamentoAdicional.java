@@ -53,12 +53,6 @@ public class AcompanhamentoAdicional  {
 		return precoAdicional;
 	}
 
-
-
-	
-		
-
-
 	public void addRecheioExtra() {
 		
 		System.out.println("Adicionar queijo extra!");
@@ -107,10 +101,7 @@ public class AcompanhamentoAdicional  {
 	
 	public String toString() {
 		
-		return ""
-		
-		
-		
+	
 		
 	}
 	

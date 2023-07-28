@@ -16,11 +16,13 @@ public class man {
 
 		
 		Pizza massa = new Pizza(false, SaboresComum.PORTUGUESA);
+		Pizza massa01 = new Pizza(true, SaboresVegano.ALHO_E_OLEO);
 		
 	
 		
 		massa.massaPizza();
 		System.out.println(massa);
+		System.out.println(massa01);
 		
 		AcompanhamentoAdicional  adicional = new AcompanhamentoAdicional();
 		adicional.executarMetodos(true, true, true);

@@ -4,12 +4,11 @@ import entidade.enums.SaboresComum;
 import entidade.enums.SaboresVegano;
 
 
-// falta resolver como escolher o tipo do sabor vegano ou comum
 
 public class Pizza {
 	
 	private Double  preco;
-	private Boolean vegano; // verificar se é vegano ou não
+	private Boolean vegano; 
 	private SaboresComum sabores;
 	private SaboresVegano SaboresVegano;
 	
